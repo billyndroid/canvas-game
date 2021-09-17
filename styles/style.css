@@ -1,0 +1,274 @@
+html {
+    background-color: #3E4459 ;
+    color: #f23d91;
+    flex: auto;
+   /* background: linear-gradient(45deg, #FC466B, #3F5EFB); */
+    margin: 0%;
+    padding: 0%;
+               
+}
+header {
+    background-color: #C9DFF2;
+    text-align: right;
+    block-size: 200px;
+  /* background: linear-gradient(45deg, #FC466B, #3F5EFB);*/
+               
+}
+#logo {
+    border-radius: 10%;
+    max-width: 10vw;
+    height: auto;
+    z-index: -4;
+}
+#title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(216, 207, 207);
+    background-color: #260205;
+    padding: .5vw;
+}
+article {
+
+}
+#animate {
+  position: relative;
+  animation: logoslide 5s infinite;
+  animation-delay: 3s;
+  animation-iteration-count: inherit;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+}
+@keyframes logoslide {
+  from {left: -2000px;}
+  to {left: 0px;}
+  
+}
+@keyframes nameslide {
+  from {left: -2000px;}
+  to {left: 0px;}
+  
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.container {
+    color: rgb(216, 207, 207);
+    background-color: #260205 ;
+    max-width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1544738502-849ab3c63e50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+#about_me {
+    padding: 5px;
+    background-color: #3E4459 ; 
+    color: rgb(216, 207, 207);
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+border-radius: 10px;
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+p {
+    
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#description {
+    color: rgb(216, 207, 207);
+    font-size: 16px;
+}
+#survey-form {
+    border: gold;
+    background-color: #BF4E6D;
+
+    
+
+    border-radius: 80px;
+    display:grid;
+   border: black;
+   border-style: groove;
+   margin: auto;
+   padding: 10%;
+   border-radius: 10%;
+   max-width: 990%;
+}
+#number-label {
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
+}
+#number {
+    background-color: firebrick;
+    color: rgb(216, 207, 207);
+}
+#dropdown-label {
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
+#email-label {
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
+#name-label {
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
+#name {
+    border-radius: 5%;
+}
+    #checkbox {
+       
+    }
+#checkbox-label {
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
+#submit {
+    margin: 20px;
+    border-radius: 20%;
+}
+textarea {
+    color: rgb(216, 207, 207);
+    background-color: chocolate;
+}
+.example-parent {
+    border: 2px solid #DFA612;
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  .example-origin {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  .example-draggable {
+    background-color: #4AAE9B;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .example-dropzone {
+    background-color: #6DB65B;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+  }
+
+#bg {
+    background-image: "assets/hybrid-MEr9r0S2YE8-unsplash";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: antiquewhite;
+    text-align: center;
+}
+/* CSS below cut from W3 schools */
+.sidebar {
+  margin: 0;
+  padding: 3px;
+  font-size: 12px;
+  width: 100px;
+  background-color: #C9DFF2;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #260205;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #3E4459;
+  color: white;
+}
+
+div.content {
+  margin-left: 100px;
+  padding: 1px 16px;
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+footer {
+    background-color: #E9F1F2;
+    font-size: 12px;
+            text-align:center;
+            padding:10px;
+            margin-top:7px;
+}
+.card {
+  backdrop-filter: blur(16px) saturate(80%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(61, 68, 89, 0.7);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.125);
+  padding: 5vw;
+}
+#myDIV {
+background-color: lightblue;
+border: 1px solid black;
+animation: mymove 5s infinite;
+}
+@keyframes mymove {
+50% {padding-bottom: 50px;}
+}
+/* adobe color css */
+/* Color Theme Swatches in Hex */
+.Business-travel-1-hex { color: #260205; }
+.Business-travel-2-hex { color: #BF4E6D; }
+.Business-travel-3-hex { color: #3E4459; }
+.Business-travel-4-hex { color: #C9DFF2; }
+.Business-travel-5-hex { color: #E9F1F2; }
+
+/* Color Theme Swatches in RGBA */
+.Business-travel-1-rgba { color: rgba(38, 2, 5, 1); }
+.Business-travel-2-rgba { color: rgba(191, 78, 108, 1); }
+.Business-travel-3-rgba { color: rgba(61, 68, 89, 1); }
+.Business-travel-4-rgba { color: rgba(201, 223, 242, 1); }
+.Business-travel-5-rgba { color: rgba(232, 241, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Business-travel-1-hsla { color: hsla(354, 88, 7, 1); }
+.Business-travel-2-hsla { color: hsla(343, 46, 52, 1); }
+.Business-travel-3-hsla { color: hsla(224, 18, 29, 1); }
+.Business-travel-4-hsla { color: hsla(208, 61, 86, 1); }
+.Business-travel-5-hsla { color: hsla(185, 27, 93, 1); }
+
