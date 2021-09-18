@@ -27,9 +27,7 @@ header {
     background-color: #260205;
     padding: .5vw;
 }
-article {
 
-}
 #animate {
   position: relative;
   animation: logoslide 5s infinite;
@@ -49,10 +47,6 @@ article {
   to {left: 0px;}
   
 }
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
 .container {
     color: rgb(216, 207, 207);
     background-color: #260205 ;
@@ -62,21 +56,6 @@ article {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-}
-#about_me {
-    padding: 5px;
-    background-color: #3E4459 ; 
-    color: rgb(216, 207, 207);
-    background: rgba( 255, 255, 255, 0.35 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 10px );
--webkit-backdrop-filter: blur( 10px );
-border-radius: 10px;
-background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 p {
     
@@ -90,47 +69,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: rgb(216, 207, 207);
     font-size: 16px;
 }
-#survey-form {
-    border: gold;
-    background-color: #BF4E6D;
-
-    
-
-    border-radius: 80px;
-    display:grid;
-   border: black;
-   border-style: groove;
-   margin: auto;
-   padding: 10%;
-   border-radius: 10%;
-   max-width: 990%;
-}
-#number-label {
-    color: rgb(216, 207, 207);
-    background-color: chocolate;}
-}
-#number {
-    background-color: firebrick;
-    color: rgb(216, 207, 207);
-}
-#dropdown-label {
-    color: rgb(216, 207, 207);
-    background-color: chocolate;}
-#email-label {
-    color: rgb(216, 207, 207);
-    background-color: chocolate;}
-#name-label {
-    color: rgb(216, 207, 207);
-    background-color: chocolate;}
-#name {
-    border-radius: 5%;
-}
-    #checkbox {
-       
-    }
-#checkbox-label {
-    color: rgb(216, 207, 207);
-    background-color: chocolate;}
 #submit {
     margin: 20px;
     border-radius: 20%;
@@ -153,58 +91,14 @@ textarea {
     padding: 10px;
   }
   
-  .example-draggable {
-    background-color: #4AAE9B;
-    font-weight: normal;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
-  }
-  
-  .example-dropzone {
-    background-color: #6DB65B;
-    flex-basis: 100%;
-    flex-grow: 1;
-    padding: 10px;
-  }
 
-#bg {
-    background-image: "assets/hybrid-MEr9r0S2YE8-unsplash";
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: antiquewhite;
-    text-align: center;
-}
-/* CSS below cut from W3 schools */
-.sidebar {
-  margin: 0;
-  padding: 3px;
-  font-size: 12px;
-  width: 100px;
-  background-color: #C9DFF2;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
 
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-}
- 
-.sidebar a.active {
-  background-color: #260205;
-  color: white;
-}
 
-.sidebar a:hover:not(.active) {
-  background-color: #3E4459;
-  color: white;
+#myCanvas {
+  padding: 10px;
+  margin: 3px;
+  border-radius: 10%;
 }
-
 div.content {
   margin-left: 100px;
   padding: 1px 16px;
