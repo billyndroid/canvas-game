@@ -7,6 +7,10 @@ html {
     padding: 0%;
                
 }
+body {
+  margin: 0;
+  overflow: hidden;
+}
 header {
     background-color: #C9DFF2;
     text-align: right;
